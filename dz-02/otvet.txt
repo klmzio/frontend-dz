@@ -1,0 +1,22 @@
+Задание 02
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя первая страница</title>
+</head>
+<body>
+    <h1>Привет!</h1>
+    <p>Это моя первая страница на HTML.</p>
+</body>
+</html>
+
+Три элемента:
+head - тут настройки страницы, на самой странице их не видно.
+title - название, которое видно на вкладке.
+h1 - главный заголовок.
+
+Как запустить: открыть index.html в браузере.
+Проверка: страница открывается, буквы нормальные, meta и title находятся в head.

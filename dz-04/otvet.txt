@@ -1,0 +1,46 @@
+Задание 04
+
+index.html:
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои навыки</title>
+</head>
+<body>
+    <h1>Арман</h1>
+    <img src="images/avatar.svg" alt="Жёлтый смайлик с глазами и улыбкой">
+
+    <p>
+        <a href="#skills">Навыки</a>
+        <a href="#links">Ссылки</a>
+    </p>
+
+    <h2 id="skills">Навыки</h2>
+    <ul>
+        <li>HTML</li>
+        <li>Немного CSS</li>
+        <li>Работа в VS Code</li>
+    </ul>
+
+    <h2 id="links">Ссылки</h2>
+    <a href="https://developer.mozilla.org/ru/docs/Web/HTML">Тут можно почитать про HTML</a>
+</body>
+</html>
+
+images/avatar.svg:
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+    <circle cx="50" cy="50" r="45" fill="yellow"/>
+    <circle cx="35" cy="40" r="5" fill="black"/>
+    <circle cx="65" cy="40" r="5" fill="black"/>
+    <path d="M30 65 Q50 80 70 65" stroke="black" stroke-width="4" fill="none"/>
+</svg>
+
+images/avatar.svg это относительный путь, браузер ищет файл от папки, где лежит index.html.
+https://developer.mozilla.org/ru/docs/Web/HTML это полный URL, в нём есть https и адрес сайта, он открывается откуда угодно.
+
+Как запустить: открыть index.html в браузере.
+Проверка: картинка видна, ссылки работают.
